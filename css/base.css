@@ -42,10 +42,8 @@ small { font-size: var(--fs-cap); }
 
 .phone-frame {
   position: relative;
-  height: min(96vh, 900px);
-  aspect-ratio: 390 / 844;
-  width: auto;
-  max-width: 94vw;
+  width: min(390px, 96vw);
+  height: min(94vh, 844px);
   background: var(--bg-frame);
   border-radius: 46px;
   padding: 12px;
